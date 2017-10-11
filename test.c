@@ -140,7 +140,7 @@ void read_png(char *fileName)
 
 
 
-int main(int argc char ** argv)
+int main(int argc, char ** argv)
 {
 	return 0;
 }
