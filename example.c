@@ -267,7 +267,6 @@ int check_if_png(char *file_name, FILE **fp)
  * file, and the other where we are given an open file (possibly with
  * some or all of the magic bytes read - see comments above).
  */
-#define ERROR  0
 #ifdef open_file /* prototype 1 */
 int read_png(char *file_name)  /* We need to open the file */
 {
